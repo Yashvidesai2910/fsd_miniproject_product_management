@@ -13,7 +13,7 @@ const AddProduct = () => {
 
   const handleChange = (e) => {
     const value = e.target.value;
-    setProduct({ ...product, [e.target.name]: value });
+    setProduct({ ...product, [e.target.name]: value }):
   };
 
   const ProductRegsiter = (e) => {
